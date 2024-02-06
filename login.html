@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <title> Login Form</title>
+    <link rel="stylesheet" href="form.css">
+    
+    
+    
+</head>
+<body>
+   
+ 
+
+   
+
+   <div class="body">
+    <div class="container">
+        <h1 id="wel">Welcome to CMITS</h1>
+        <p id="hello"></p>
+        <h1 id="head">Login Form</h1>
+        <div>
+            <form  id="form" onsubmit="return validate()" action="msg.html" >
+      
+            <label class="user"><ion-icon name="person-sharp"></ion-icon> User Name:</label><br>
+
+            <input id="user" class="h" type="text" placeholder="enter user name" required><br><br>
+            
+
+        </div>
+        
+        <div>
+            <label class="user"><ion-icon name="eye-off-sharp"></ion-icon>Password:</label><br>
+            <input id="pssw" class="h" type="password" placeholder="enter password" required><br><br>
+            <label class="user"><ion-icon name="eye-off-sharp"></ion-icon>Confirm Password:</label><br>
+
+            <input id="con" type="password" placeholder="enter confirm password" class="h" required><br><br>
+
+      
+        <a href="#" onclick="forgot()"> <u>Forget Password</u></a><br><br>
+        
+        <input  class="submit" type="submit" value="submit">
+      
+        </button><br><br>
+        <input class="reset" type="reset" value="Reset"><br><br>
+        <a href="signup.html"><u>Sign up here</u></a> 
+       
+    </form>
+
+       
+        </div>
+    </div>
+ 
+
+    <script src="form.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    
+</body>
+</html>
